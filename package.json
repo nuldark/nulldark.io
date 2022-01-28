@@ -1,0 +1,13 @@
+{
+  "name": "@macotsuu/personal-site",
+  "version": "0.1.0",
+  "scripts": {
+    "serve": "serve",
+    "sass:watch": "sass --watch scss/main.scss css/style.css",
+    "sass:build": "sass scss/main.scss css/style.css --source-map-urls=relative  compressed"
+  },
+  "devDependencies": {
+    "sass": "^1.49.0",
+    "serve": "^13.0.2"
+  }
+}

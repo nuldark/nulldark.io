@@ -1,0 +1,62 @@
+@font-face {
+  font-family: "Varela_Round";
+  src: url("../fonts/VarelaRound-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Quicksand";
+  src: url("../fonts/Quicksand-Regular.ttf") fromat("truetype");
+}
+a, a:link, a:hover, a:visited {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  transition: 0.3s;
+  color: #F0DB4F;
+}
+
+h1 {
+  color: #fff;
+  font-size: 5em;
+  font-family: "Varela Round", sans-serif;
+  letter-spacing: -0.04em;
+}
+
+p {
+  color: #F0DB4F;
+  font-size: 2.5em;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 400;
+}
+
+*, *::after, *::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html, body {
+  height: 100vh;
+  background-color: #000;
+}
+
+body {
+  justify-content: center;
+  display: flex;
+}
+
+.page-container {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.page-container p {
+  margin: 15px 0;
+}
+.page-container a {
+  margin: 0 15px;
+}
+
+/*# sourceMappingURL=style.css.map */
