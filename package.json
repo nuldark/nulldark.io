@@ -1,13 +1,14 @@
 {
-  "name": "@macotsuu/personal-site",
+  "name": "bytebits.dev",
   "version": "0.1.0",
+  "main": "index.js",
   "scripts": {
     "serve": "serve",
-    "sass:watch": "sass --watch scss/main.scss css/style.css",
-    "sass:build": "sass scss/main.scss css/style.css --source-map-urls=relative  compressed"
+    "sass:watch": "sass --watch assets/scss/main.scss:assets/css/main.css"
   },
-  "devDependencies": {
-    "sass": "^1.49.0",
-    "serve": "^13.0.2"
+  "license": "MIT",
+  "dependencies": {
+    "sass": "^1.64.1",
+    "serve": "^14.2.0"
   }
 }
