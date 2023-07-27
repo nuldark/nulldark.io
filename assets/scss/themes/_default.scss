@@ -1,0 +1,22 @@
+body {
+    background-color: $dark-color;
+}
+
+
+.socials {
+    margin: 0;
+    padding: 25px 0 0 0;
+    
+    display: flex;
+    
+    li {
+        margin-left: 0;
+    }
+
+    a {
+        transition: 0.4s;
+        &:hover {
+            color: $brand-color;
+        }
+    }
+}

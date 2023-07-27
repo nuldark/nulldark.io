@@ -1,0 +1,25 @@
+.header {
+    padding: 0 20px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+
+    .brand {
+        color: $yellow-color;
+        font-weight: bold;
+        font-size: 18px;
+        display: flex;
+        align-items: center;
+    }
+
+    @media only screen and (min-width: 600px) {
+        & {
+            flex-direction: row;
+        }
+    }
+
+    > .container {
+        align-items: center;
+        display: flex;
+    }
+}

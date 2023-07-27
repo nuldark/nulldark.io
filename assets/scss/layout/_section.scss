@@ -1,0 +1,51 @@
+.sections {
+    section {
+        text-align: left;
+        display: flex;
+        flex: none;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        height: min-content;
+        justify-content: center;
+        overflow: visible;
+        padding: 100px 40px 40px;
+        position: relative;
+        width: 100%;
+        
+        @media (min-width: 768px) {
+            padding: 200px 40px 40px;
+        }
+
+        h2 {
+            font-size: 1.875rem;
+            line-height: 2.25rem;
+            padding: 0.5rem;
+            
+            span {
+                color: $yellow-color;
+            }
+
+            @media (min-width: 768px) {
+                & {
+                    font-size: 3.75rem;
+                    line-height: 1;
+                }
+            }
+
+            @media (min-width: 1024px) {
+                & {
+                    font-size: 3.75rem;
+                    line-height: 1;
+                }
+            }
+
+            @media (min-width: 1440px) {
+                & {
+                    font-size: 6rem;
+                    line-height: 1;
+                }
+            }
+
+        }
+    }
+}
